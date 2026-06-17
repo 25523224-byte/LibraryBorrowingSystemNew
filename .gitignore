@@ -1,0 +1,42 @@
+# ── Compiled output ──────────────────────────────────────────
+out/
+target/
+build/
+dist/
+*.class
+*.jar
+*.war
+*.ear
+
+# ── macOS metadata ────────────────────────────────────────────
+.DS_Store
+._*
+**/.DS_Store
+**/._*
+
+# ── IDE — IntelliJ IDEA / PyCharm ────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── IDE — VS Code ─────────────────────────────────────────────
+.vscode/
+
+# ── IDE — Eclipse ─────────────────────────────────────────────
+.classpath
+.project
+.settings/
+bin/
+
+# ── IDE — NetBeans ────────────────────────────────────────────
+nbproject/
+nbbuild/
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+
+# ── SQLite database ───────────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
